@@ -1,8 +1,19 @@
-# dockeriot
-Apps development platform for device layer on IOT
+# Dockeriot
 
-Dockeriot apps deveelopment platform for IOT devices using docker
+Dockeriot is an apps development platform for IOT devices using docker
 
-Dockeriot aims to enable all the fetures of containers (in these case docker containers) for applications on embedded devices
-under an IOT environment. 
+Dockeriot aims to enable all the features of containers (in this case docker containers) for applications
+under an Internet of things environment. 
+
+
+## General scheme
+
+
+
+## Things Layer.
+
+
+
+
+
 
