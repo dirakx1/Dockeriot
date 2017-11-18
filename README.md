@@ -12,6 +12,10 @@ under an Internet of things environment.
 
 ## Things Layer
 
+![Alt text](dockeriot/Things layer.jpg )
+<img src="dockeriot/Things layer.jpg ">
+ 
+
 
 
 
