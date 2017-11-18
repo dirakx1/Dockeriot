@@ -12,7 +12,7 @@ under an Internet of things environment.
 
 ## Things Layer
 
-<img src="./Things layer.jpg ">
+<img src="./Things layer2.jpg ">
  
 
 
