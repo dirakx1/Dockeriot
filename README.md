@@ -10,7 +10,7 @@ under an Internet of things environment.
 
 
 
-## Things Layer.
+## Things Layer
 
 
 
