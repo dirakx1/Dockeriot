@@ -12,7 +12,6 @@ under an Internet of things environment.
 
 ## Things Layer
 
-![Alt text](./Things layer.jpg )
 <img src="./Things layer.jpg ">
  
 
