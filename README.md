@@ -12,8 +12,8 @@ under an Internet of things environment.
 
 ## Things Layer
 
-![Alt text](dockeriot/Things layer.jpg )
-<img src="dockeriot/Things layer.jpg ">
+![Alt text](./Things layer.jpg )
+<img src="./Things layer.jpg ">
  
 
 
