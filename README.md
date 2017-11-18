@@ -9,6 +9,7 @@ under an Internet of things environment.
 ## General scheme
 
 
+<img src="./IOTplatform.jpg ">
 
 ## Things Layer
 
