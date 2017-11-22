@@ -11,8 +11,8 @@ under an Internet of things environment.
 
 <img src="./IOtplatform2.jpg">
 
-* The C letters refers to docker software containers.
-* The A letter refers PLCs with Arduino and/or Raspberry nucleus.
+* The C letters reffer to docker software containers.
+* The A letter reffer to PLCs with Arduino and/or Raspberry nucleus.
 
 ## Things Layer
 
