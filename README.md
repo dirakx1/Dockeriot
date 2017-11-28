@@ -20,6 +20,8 @@ under an Internet of things environment.
 ## Industrial Layer
 <img src="./Industrial layer2.jpg ">
 
+## Analitycs Layer
+<img src="./Industrial layer2.jpg ">
 
 
 
