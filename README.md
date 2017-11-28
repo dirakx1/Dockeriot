@@ -15,11 +15,9 @@ under an Internet of things environment.
 * The A letter reffer to PLCs with Arduino and/or Raspberry nucleus.
 
 ## Things Layer
-
 <img src="./Things layer2(1).jpg ">
  
 ## Industrial Layer
-
 <img src="./Industrial layer2.jpg ">
 
 
