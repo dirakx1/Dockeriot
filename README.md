@@ -18,8 +18,9 @@ under an Internet of things environment.
 
 <img src="./Things layer2(1).jpg ">
  
+## Industrial Layer
 
-
+<img src="./Industrial layer2.jpg ">
 
 
 
