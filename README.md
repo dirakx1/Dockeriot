@@ -18,8 +18,10 @@ Note: Although here we depict a general platform, the first layer that is develo
 
 ## Things Layer
 <img src="./Things layer2(1).jpg "> 
+
 ## Industrial Layer
 <img src="./Industrial layer2.jpg ">
+
 ## Analitycs Layer
 <img src="./Analitics layer2.jpg ">
 
