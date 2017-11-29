@@ -21,6 +21,7 @@ Note: Although here we depict a general platform, the first layer that is develo
 
 ### Things layer zoom
 #### App container
+<img src="./App container.jpg ">
 
 ## Industrial Layer
 <img src="./Industrial layer2.jpg ">
