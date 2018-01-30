@@ -18,6 +18,21 @@ dd bs=4M if=2017-11-29-raspbian-stretch.img of=/dev/sdX conv=fsync
 
 
 ### Install docker
+```
+$ curl -s https://packagecloud.io/install/repositories/Hypriot/Schatzkiste/script.deb.sh | sudo bash
+$ sudo apt-get install docker-hypriot=1.10.3-1
+$ sudo sh -c 'usermod -aG docker $SUDO_USER'
+$ sudo systemctl enable docker.service
+$ systemctl unmask docker.service
+$ systemctl unmask docker.socket
+$ systemctl start docker.service
+# verification
+$ sudo docker run hello-world   
+$ sudo docker info 
+$ docker rmi hello-world 
+
+```
+script install.sh
 
 ## Dockeriot installation
 ### ***Run containers
