@@ -32,7 +32,8 @@ $ sudo docker info
 $ docker rmi hello-world 
 
 ```
-script install.sh
+* script install.sh
 
 ## Dockeriot installation
+* script install.sh
 ### ***Run containers
