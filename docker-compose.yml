@@ -5,16 +5,16 @@ services:
 
 # Application
 
-dockeriot-test-flask:
+dockeriot-flask-microservice-test:
     build:
       context: .
       dockerfile: Dockerfile.flask
     volumes:
-      - /mnt/nfs/npo-test/source/npo/:/app/
+      - /dev/example/:/app/
       
     depends_on:
       - dockeriot-test-yyyy
-      - dockeriot-test-xxxx
+      - dockeriot-nginx-test-xxxx
     ports:
       - xxxx:8000
     extra_hosts:
@@ -22,7 +22,7 @@ dockeriot-test-flask:
 
 # web server
 
-  nginx:
+  dockeriot-nginx-test:
     image: nginx
     ports:
       - "80:80"
