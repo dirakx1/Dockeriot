@@ -1,0 +1,60 @@
+FROM debian:stretch
+
+MAINTAINER dockeriot
+
+## CONFIGURE LOCALES
+RUN apt-get update && apt-get install -y locales && \
+	sed -i 's%^# en_US.UTF-8 UTF-8$%en_US.UTF-8 UTF-8%' /etc/locale.gen && \
+	locale-gen
+ENV LANG en_US.UTF-8
+
+## UPDATE REPOSITORIES, INSTALL PIP AND BUILD DEPENDENCIES 
+RUN apt-get update && \
+	apt-get install -y libjpeg62-turbo-dev 	\
+	python3.5		\
+	zlib1g-dev 	\
+	python3.5-dev	\
+	libldap2-dev 	\
+	libsasl2-dev 	\
+	libpq-dev 	\
+	libpcre3 	\
+	libpcre3-dev	\
+	libpython3.5	\
+	pandoc 		\
+	git 		\
+	wget		\
+  python3-pip      \
+	python3-setuptools  \
+	curl		
+
+RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.5 1
+RUN update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 1
+
+ENV GITPROJECT dockeriot-test  # Git repo of flask microservice.
+
+## INSTALL requirements.txt
+
+RUN cd /tmp/ && git clone git@gitlabe1.ext.net.nokia.com:nsndev/${GITPROJECT}.git --branch devel && \
+	pip3 install -r ${GITPROJECT}/requirements.txt 			&& \
+	rm ${GITPROJECT} -rf 
+
+## SINCE WE DO NOT USE GUNICORN
+RUN pip install uwsgi==2.0.14
+
+## REMOVE UNEEDED PACKAGES
+RUN apt-mark manual libpq5 && \
+	apt-get remove -y libjpeg62-turbo-dev zlib1g-dev python3.5-dev libldap2-dev libsasl2-dev libpq-dev pandoc git wget libpcre3-dev && \
+	apt-get autoremove -y
+
+## COPY ENTRYPOINT SCRIPT
+COPY flask-entrypoint.sh /docker-entrypoint.sh
+
+## CREATE A SPACE TO MOUNT DATA AND MOVE TO IT
+RUN mkdir /app
+WORKDIR /app
+
+## DO NOT RUN CELERY / UWSGI AS ROOT
+RUN groupadd -g 1000 -r flask && useradd -r -u 1000 -g flask flask
+RUN mkdir /home/flask && chown flask: /home/flask
+USER flask
+ENTRYPOINT ["/docker-entrypoint.sh"]
