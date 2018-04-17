@@ -1,4 +1,4 @@
-# docker compose for application (webserver, microservice under things layer).
+# docker compose for application testinf (webserver, microservice under things layer).
 
 version: '2'
 services:
