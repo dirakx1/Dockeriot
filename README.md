@@ -2,8 +2,8 @@
 
 Dockeriot is an apps development platform for IOT devices using docker
 
-Dockeriot aims to enable all the features of containers (in this case docker containers) for applications
-under an Internet of things environment. 
+Dockeriot aims to enable all the features of containers (in our case docker containers) for applications
+under an Internet of things (IOT) environment. 
 
 Note: Although here we depict a general platform, the first layer that is developed is the "things layer"
 
