@@ -29,7 +29,7 @@ Note: Although here we depict a general platform, the first layer that is develo
 ## Analitycs Layer
 <img src="./Analitics layer2.jpg ">
 
-### Intall it!
+### Install it!
 
 ### Run it!
 
