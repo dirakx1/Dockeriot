@@ -26,13 +26,14 @@ $ sudo systemctl enable docker.service
 $ systemctl unmask docker.service
 $ systemctl unmask docker.socket
 $ systemctl start docker.service
----
+```
 ### Check that docker is running. 
----
+```
 $ sudo docker run hello-world   
 $ sudo docker info 
 $ docker rmi hello-world 
----
+```
+
 * script install.sh
 
 ## Dockeriot installation
