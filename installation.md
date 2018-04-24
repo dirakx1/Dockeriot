@@ -33,10 +33,13 @@ $ sudo docker run hello-world
 $ sudo docker info 
 $ docker rmi hello-world 
 ```
+### Install docker-compose 
+
+### Check that docker-compose is up and running
 
 * All these steps can via automated script install.sh
 
 ## Dockeriot installation
 * script install.sh
 ## Check that dockeriot is up and running
-
+* check_dockeriot.sh
