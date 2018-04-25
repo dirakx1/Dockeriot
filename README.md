@@ -35,7 +35,7 @@ Note: Although here we depict a general platform, the first layer that is develo
 <img src="./Analitics layer2.jpg ">
 
 ### Install it!
-* [Install] (https://github.com/dirakx1/dockeriot/installation.md)
+* [Install] (dockeriot/installation.md)
 
 ### Run it!
 
