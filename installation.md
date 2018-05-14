@@ -15,7 +15,10 @@ You have to plug an SD into a Linux, MAC or Windows based computer
 dd bs=4M if=2017-11-29-raspbian-stretch.img of=/dev/sdX conv=fsync
 ```
 ### Configure network interfaces
+```
+ Entering the raspberry (witH ifconfig or ipconfig know the IP of you board) 
 
+```
 
 ### Install docker
 ```
