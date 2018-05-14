@@ -50,7 +50,7 @@ $ sudo apt-get install docker-compose
 
 ### Check that docker-compose is up and running
 ```
-* docker-compose ==version
+$ docker-compose ==version
 ```
 * All these steps can via automated script install.sh
 
