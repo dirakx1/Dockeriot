@@ -54,7 +54,9 @@ $ docker-compose ==version
 ```
 * All these steps can via automated script install.sh
 
-## Dockeriot installation
+## Install dockeriot
+
+## Dockeriot automatic installation
 * script install.sh
 ## Check that dockeriot is up and running
 * check_dockeriot.sh
