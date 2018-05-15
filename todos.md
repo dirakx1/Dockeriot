@@ -1,3 +1,4 @@
-* IOTa intgration
+* IOTA integration
 * docker swarm - terraform suport. 
-* Kuberantes
+* Kubernates
+* HypriotOS support. 
