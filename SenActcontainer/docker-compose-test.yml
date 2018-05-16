@@ -1,2 +1,2 @@
-# docker compose for testing sensor-actuator container. 
-init
+# docker compose file for flask microservice that expose sensor/actuator data. 
+
