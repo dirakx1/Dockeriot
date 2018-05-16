@@ -29,7 +29,7 @@ Note: Although here we depict a general platform, the first layer that is develo
 <img src="./Sensor_ActuatorContainer2(1).jpg ">
 
 ## Industrial Layer
-<img src="./Industrial layer2.jpg ">
+<img src="./Industrial layer2(1).jpg ">
 
 ## Analitycs Layer
 <img src="./Analitics layer2.jpg ">
