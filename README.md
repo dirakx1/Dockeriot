@@ -23,7 +23,7 @@ Note: Although here we depict a general platform, the first layer that is develo
 
 ### Things layer zoom
 #### App container
-<img src="./App container.png ">
+<img src="./App container(1).png ">
 
 #### Sensor/Actuator container
 <img src="./Sensor_ActuatorContainer2.jpg ">
