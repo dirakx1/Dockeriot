@@ -19,7 +19,7 @@ Note: Although here we depict a general platform, the first layer that is develo
 * The A letter reffer to PLCs with Arduino and/or Raspberry nucleus.
 
 ## Things Layer
-<img src="./Things layer2(1).jpg "> 
+<img src="./Things layer(2).jpg "> 
 
 ### Things layer zoom
 #### App container
