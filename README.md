@@ -13,7 +13,7 @@ Note: Although here we depict a general platform, the first layer that is develo
 
 ## General scheme
 
-<img src="./IOtplatform3.jpg">
+<img src="./IOtplatform3(1).jpg">
 
 * The C letters reffer to docker software containers.
 * The A letter reffer to PLCs with Arduino and/or Raspberry nucleus.
