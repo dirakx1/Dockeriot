@@ -26,7 +26,7 @@ Note: Although here we depict a general platform, the first layer that is develo
 <img src="./App container(1).jpg ">
 
 #### Sensor/Actuator container
-<img src="./Sensor_ActuatorContainer2.jpg ">
+<img src="./Sensor_ActuatorContainer2(1).jpg ">
 
 ## Industrial Layer
 <img src="./Industrial layer2.jpg ">
