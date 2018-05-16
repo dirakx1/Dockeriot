@@ -31,7 +31,7 @@ Note: Although here we depict a general platform, the first layer that is develo
 ## Industrial Layer
 <img src="./Industrial layer2(1).jpg ">
 
-## Analitycs Layer
+## Analitics Layer
 <img src="./Analitics layer2(1).jpg ">
 
 ### Install it!
