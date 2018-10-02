@@ -40,5 +40,5 @@ Note: Although here we depict a general platform, the first layer that is develo
 ### Run it!
 
 ### Contact
-* [Contact](dockeriot/contact.md)
+* [Contact](dockeriot/CONTACT.md)
 
