@@ -1,5 +1,5 @@
 * IOTA integration
-* Kubernates - terraform suport. 
+* Kubernates - terraform suport -improve design grpah for kubernates. 
 * HypriotOS support. 
 * Testing 
-* Exxamples.
+* Use examples,
