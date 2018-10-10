@@ -39,6 +39,8 @@ Note: Although here we depict a general platform, the first layer that is develo
 
 ### Run it!
 
+* See usage examples and applications
+
 ### Contact
 * [Contact](dockeriot/CONTACT.md)
 
