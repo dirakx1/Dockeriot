@@ -42,5 +42,5 @@ Applications of dockeriot include:
 * See usage examples and applications
 
 ### Contact
-* [Contact](dockeriot/CONTACT.md)
+* [Contact](CONTACT.md)
 
