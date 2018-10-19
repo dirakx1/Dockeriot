@@ -35,7 +35,7 @@ Applications of dockeriot include:
 <img src="./Analitics layer2(1).jpg ">
 
 ### Install it!
-* [Install](dockeriot/installation.md)
+* [Install](installation.md)
 
 ### Run it!
 
