@@ -39,7 +39,7 @@ Applications of dockeriot include:
 
 ### Run it!
 
-* See usage examples and applications
+* See [usages](USAGES.md)
 
 ### Contact
 * [Contact](CONTACT.md)
