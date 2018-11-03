@@ -1,29 +1,25 @@
-# docker compose for application (webserver, microservice under things layer).
-
 version: '2'
 services:
 
-# Application
-
-dockeriot-flask-microservice-test:
-    build:
-      context: .
-      dockerfile: Dockerfile.flask
+    dockeriot-flask-microservice-test:
+       build:
+       context: .
+       dockerfile: Dockerfile.flask
     volumes:
       - /dev/example/:/app/
       
     depends_on:
-      - dockeriot-test-yyyy
-      - dockeriot-nginx-test-xxxx
+      - dockeriot-test
+      - dockeriot-nginx-test
     ports:
-      - xxxx:8000
+      - 8000:8000
     extra_hosts:
       - postgres-db:127.0.0.1  # database
 
 # web server
 
-  dockeriot-nginx-test:
-    image: nginx
+   dockeriot-nginx-test:
+     image: nginx
     ports:
       - "80:80"
     volumes:
