@@ -34,7 +34,7 @@ ENV GITPROJECT dockeriot-test  # Git repo of flask microservice.
 
 ## INSTALL requirements.txt
 
-RUN cd /tmp/ && git clone git@github.com:dirakx1/flaskapp.git --branch devel && \
+RUN cd /tmp/ && git clone git@github.com:dirakx1/dockeriotflaskapp.git --branch devel && \
 	pip3 install -r ${GITPROJECT}/requirements.txt 			&& \
 	rm ${GITPROJECT} -rf 
 
