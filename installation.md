@@ -66,5 +66,5 @@ $ docker-compose up -f Dockerfile.dockeriot.yaml
 * check_dockeriot.sh
 
 ## Notes
-* you can also test the dockerfiles locally if needed, for that install docker in your preffered OS. 
+* You can also test the dockerfiles locally, for that install docker in your preffered OS. 
 
