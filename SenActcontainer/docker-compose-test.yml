@@ -1,2 +1,22 @@
-# docker compose file for flask microservice that expose sensor/actuator data. 
-
+# docker compose file for microservices that expose sensor/actuator data. 
+version: '3'
+services:
+  
+  dockeriot-sensor-test:
+    build:
+      context: "."      
+      dockerfile: Dockerfile.sensor    
+ 
+  dockeriot-actuator-test:
+    build:
+      context: "."      
+      dockerfile: Dockerfile.sensor
+  
+  dockeriot-nginx-test:
+    image: nginx
+    ports:
+    - "80:80"
+    volumes:
+    - ./vhosts/:/etc/nginx/conf.d/:ro
+    - ./error-pages/:/usr/share/nginx/html/:ro
+- ./conf/nginx.conf:/etc/nginx/nginx.conf:ro
