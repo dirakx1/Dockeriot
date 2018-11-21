@@ -1,3 +1,22 @@
-# docker compose file for comcontainer testing. 
-
-:init
+# docker compose file for comunication layer container testing. 
+version: '3'
+services:
+  
+  dockeriot-com-test:
+    build:
+      context: "."      
+      dockerfile: Dockerfile.sensor    
+ 
+  dockeriot-com2-test:
+    build:
+      context: "."      
+      dockerfile: Dockerfile.sensor
+  
+  dockeriot-nginx-test:
+    image: nginx
+    ports:
+    - "80:80"
+    volumes:
+    - ./vhosts/:/etc/nginx/conf.d/:ro
+    - ./error-pages/:/usr/share/nginx/html/:ro
+- ./conf/nginx.conf:/etc/nginx/nginx.conf:ro
