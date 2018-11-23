@@ -1,5 +1,6 @@
 # Example of an aplication on the appcontainer for dockerioi
 # Services are described bellow, you can use a predifined flask docker image if wanted. 
+# you can build and test you docker images locally f.e: sudo docker-compose -f docker-compose-test.yml build
 version: '3'
 services:
   

@@ -1,4 +1,6 @@
 # docker compose file for microservices that expose sensor/actuator data. 
+# you can build and test you docker images locally f.e: sudo docker-compose -f docker-compose-test.yml build
+
 version: '3'
 services:
   
