@@ -1,5 +1,5 @@
 # Example of an aplication on the appcontainer for dockerioi
-# Services are described bellow
+# Services are described bellow, you can use a predifined flask docker image if wanted. 
 version: '3'
 services:
   
