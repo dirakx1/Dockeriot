@@ -9,37 +9,14 @@ RUN apt-get update && apt-get install -y locales && \
 ENV LANG en_US.UTF-8
 
 ## UPDATE REPOSITORIES, INSTALL PIP AND BUILD DEPENDENCIES 
-RUN apt-get update && \
-	apt-get install -y libjpeg62-turbo-dev 	\
-	python3.5		\
-	zlib1g-dev 	\
-	python3.5-dev	\
-	libldap2-dev 	\
-	libsasl2-dev 	\
-	libpq-dev 	\
-	libpcre3 	\
-	libpcre3-dev	\
-	libpython3.5	\
-	pandoc 		\
-	git 		\
-	wget		\
-  python3-pip      \
-	python3-setuptools  \
-	curl		
+RUN apt-get update 
 
-RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.5 1
-RUN update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 1
-
-ENV GITPROJECT dockeriot-test  # Git repo of flask microservice.
+ENV GITPROJECT dockeriot-test  # GIT repo of flask microservice.
 
 ## INSTALL requirements.txt
 
-RUN cd /tmp/ && git clone git@github.com:dirakx1/dockeriotflaskapp.git --branch devel && \
-	pip3 install -r ${GITPROJECT}/requirements.txt 			&& \
-	rm ${GITPROJECT} -rf 
 
 ## SINCE WE DO NOT USE GUNICORN
-RUN pip install uwsgi==2.0.14
 
 ## REMOVE UNEEDED PACKAGES
 RUN apt-mark manual libpq5 && \
