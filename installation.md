@@ -61,7 +61,8 @@ $ docker-compose up -f Dockerfile.dockeriot.yaml
 ```
 
 ## Dockeriot automatic installation
-* script [Installation](installation.sh)
+* [Installation](installation.sh) script. 
+
 ## Test that dockeriot is up and running well.
 * Check that dockeriot is running ok: check_dockeriot.sh
 
