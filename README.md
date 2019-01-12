@@ -20,8 +20,6 @@ Applications of dockeriot include:
 
 
 
-## Industrial Layer
-<img src="./Industrial layer2(1).jpg ">
 
 ## Analitics Layer
 <img src="./Analitics layer2(1).jpg ">
