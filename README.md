@@ -21,9 +21,6 @@ Applications of dockeriot include:
 
 
 
-## Analitics Layer
-<img src="./Analitics layer2(1).jpg ">
-
 ### Install it!
 * [Install](installation.md)
 
