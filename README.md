@@ -9,7 +9,7 @@ Applications of dockeriot include:
 * Fast integration of new features in a chain of devices allowing testing deploying and integration.
 * Fast integration with distributed technologies like blockchain.
 
-"Note": Although here we depict a general platform, the first layer that is developed is the "things layer"
+"Note": Although here we depict a general platform, the first layer that is developed is the [Things Layer](ThingsLayer.md)
 
 ## General scheme
 
