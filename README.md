@@ -13,10 +13,10 @@ Applications of dockeriot include:
 
 ## General scheme
 
-<img src="./IOtplatform3(1).jpg">
+<img src="./IOtPlatform.jpeg">
 
-* The C letters reffer to docker software containers.
-* The A letter reffer to PLCs with Arduino and/or Raspberry nucleus.
+* T.
+* T.
 
 * For more information on layers you can see: [Things Layer](ThingsLayer.md), [Industrial Layer](IndustrialLayer.md), [Analytics Layer](AnalyticsLayer.md), Green layer. 
 
