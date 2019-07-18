@@ -13,7 +13,7 @@ Applications of dockeriot include:
 
 ## General scheme
 
-<img src="./IOtPlatform.jpeg">
+<img src="./IotPlatform.jpeg">
 
 * T.
 * T.
