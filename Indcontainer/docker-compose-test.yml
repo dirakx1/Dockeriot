@@ -4,15 +4,15 @@
 version: '3'
 services:
   
-  dockeriot-com-test:
+  dockeriot-ind-test:
     build:
       context: "."      
-      dockerfile: Dockerfile.sensor    
+      dockerfile: Dockerfile.ind
  
-  dockeriot-com2-test:
+  dockeriot-ind2-test:
     build:
       context: "."      
-      dockerfile: Dockerfile.sensor
+      dockerfile: Dockerfile.ind
   
   dockeriot-nginx-test:
     image: nginx

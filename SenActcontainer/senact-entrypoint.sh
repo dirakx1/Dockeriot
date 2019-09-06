@@ -1,1 +1,2 @@
-# init 
+#!/usr/bin/env bash
+# init

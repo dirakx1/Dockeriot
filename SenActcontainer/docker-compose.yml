@@ -6,12 +6,12 @@ services:
   dockeriot-sensor:
     build:
       context: "."
-      dockerfile: Dockerfile.sensor
+      dockerfile: Dockerfile.senact
 
   dockeriot-actuator:
     build:
       context: "."
-      dockerfile: Dockerfile.sensor
+      dockerfile: Dockerfile.senact
 
   dockeriot-nginx-test:
     image: nginx
