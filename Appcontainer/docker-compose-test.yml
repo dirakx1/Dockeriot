@@ -7,7 +7,7 @@ services:
   dockeriot-flask-test:
     build:
       context: "."      
-      dockerfile: Dockerfile.flask    
+      dockerfile: Dockerfile.flasktest
   
   dockeriot-nginx-test:
     image: nginx

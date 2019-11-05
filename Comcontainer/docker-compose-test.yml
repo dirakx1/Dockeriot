@@ -7,12 +7,12 @@ services:
   dockeriot-com-test:
     build:
       context: "."      
-      dockerfile: Dockerfile.com
+      dockerfile: Dockerfile.comtest
  
   dockeriot-com2-test:
     build:
       context: "."      
-      dockerfile: Dockerfile.com
+      dockerfile: Dockerfile.comtest
   
   dockeriot-nginx-test:
     image: nginx

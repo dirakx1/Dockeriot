@@ -12,7 +12,6 @@ APPNAME="dockeriot-test"
 
 cd $APPDIR
 
-
 if [ "$1" = 'uwsgi' ] || [ "${#}" -eq 0 ]; then
         # only do it once  
         #echo "[INFO] Running 'python manage.py db init'..."
