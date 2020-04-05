@@ -28,6 +28,4 @@ Applications of dockeriot include:
 
 * See [usages](USAGES.md)
 
-### Contact
-* [Contact](CONTACT.md)
 
