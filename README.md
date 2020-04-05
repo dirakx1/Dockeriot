@@ -21,8 +21,7 @@ Applications of dockeriot include:
 * For more information on layers you can see: [Things Layer](ThingsLayer.md), [Industrial Layer](IndustrialLayer.md), [Analytics Layer](AnalyticsLayer.md), Green layer. 
 
 
-### Install it!
-* [Install](installation.md)
+### [Install](installation.md) it!
 
 ### Run it!
 
