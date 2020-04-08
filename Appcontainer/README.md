@@ -1,8 +1,8 @@
 # Appcontainer for dockeriot 
 
-for software applications that interact with IOT devices
+Containerization of software applications that interact with IOT devices
 
-To test the app container:
+## Testing
 
 * sudo docker-compose -f docker-compose-test.yml  up -d
 
