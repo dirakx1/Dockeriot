@@ -8,5 +8,4 @@ $ systemctl unmask docker.service
 $ systemctl unmask docker.socket
 $ systemctl start docker.service
 # Verification
-$ sudo docker run hello-world   
-$ sudo docker info && docker rmi hello-world
+$ sudo docker --version
