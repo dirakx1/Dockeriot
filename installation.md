@@ -54,6 +54,8 @@ $ sudo apt-get install docker-compose
 $ docker-compose --version
 ```
 ## Install dockeriot
+
+Dockerfile.dockeriot is a fike with all the necessary services to run a demo application on the Thinks layer.
 ```
 $ docker-compose up -f Dockerfile.dockeriot.yaml 
 ```
