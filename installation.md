@@ -2,7 +2,7 @@
 # Installation
 
 For dockeriot use we need to install docker under an ARM based arquitecture, that is common for embedded systems. 
-we are going to describe a basic installation for the raspberry pi3 platform using the raspbian operative system.
+we are going to describe a basic installation for the raspberry pi3 platform using the raspbian OS.
 
 ## Raspbian installation
 ### Download raspbian
@@ -36,6 +36,7 @@ $ systemctl start docker.service
 ```
 ### Check that docker is running
 ```
+$ sudo docker --version
 $ sudo docker run hello-world   
 $ sudo docker info 
 $ docker rmi hello-world 
