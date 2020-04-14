@@ -7,7 +7,7 @@ under an Internet of things (IOT - cloud enabled) environment. If you want to se
 Applications of dockeriot include: 
 * Testing and deploying of complex applications on many devices in a replicable and scalable way. 
 * Fast integration of new features in a chain of devices allowing testing deploying and integration.
-* Fast integration with distributed technologies like blockchain.
+* Fast integration with distributed technologies like blockchain and other DLTs.
 
 ```Note: Although here we depict a general platform, the first layer that is developed is the:``` [Things Layer](ThingsLayer.md)
 
