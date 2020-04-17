@@ -70,4 +70,4 @@ check_dockeriot.sh
 ```
 ## Notes
 * You can also test the dockerfiles locally, for that install docker in your preffered OS. 
-
+* Updates available at: https://blog.hypriot.com/downloads/
