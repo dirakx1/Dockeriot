@@ -55,7 +55,7 @@ $ docker-compose --version
 ```
 ## Install dockeriot
 
-Dockerfile.dockeriot has a description of all the necessary services to run a demo application on the Thinks layer.
+Dockerfile.dockeriot has a description of all the necessary services to run a demo application on the [Things layer](ThingsLayer.md).
 ```
 $ docker-compose up -f Dockerfile.dockeriot.yaml 
 ```
