@@ -24,7 +24,7 @@ dd bs=4M if=2017-11-29-raspbian-stretch.img of=/dev/sdX conv=fsync
 
 ```
 
-### Install docker
+### Install docker with hypriot
 ```
 $ curl -s https://packagecloud.io/install/repositories/Hypriot/Schatzkiste/script.deb.sh | sudo bash
 $ sudo apt-get install docker-hypriot=1.10.3-1
@@ -70,4 +70,4 @@ check_dockeriot.sh
 ```
 ## Notes
 * You can also test the dockerfiles locally, for that install docker in your preffered OS. 
-* Updates available at: https://blog.hypriot.com/downloads/
+* Updates (for images with docker on RPI) available at: https://blog.hypriot.com/downloads/
