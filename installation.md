@@ -16,7 +16,7 @@ dd bs=4M if=2017-11-29-raspbian-stretch.img of=/dev/sdX conv=fsync
 ```
 ### Configure network interfaces
 ```
- Entering the raspberry (witH ifconfig or ipconfig know the IP of you board or conencting to a local router and accesed via it dynamic IP) default user password is pi /raspberry, after entering your raspberry issue:
+ Entering the raspberry (with ifconfig or ipconfig know the IP of you board or conencting to a local router and accesed via it dynamic IP) default user password is pi /raspberry, after entering your raspberry issue:
  
  $ apt get update  
  
