@@ -2,7 +2,7 @@
 
 Dockeriot is an apps development platform for IOT devices using docker.
 Dockeriot aims to enable all the features of containers for applications
-under an Internet of things (IOT - cloud enabled) environment. If you want to see further and rapid developments on dockeriot please support us via  [Contact](CONTACT.md) or [Funding](blob/master/.github/FUNDING.md)
+under an Internet of things (IOT - cloud enabled) environment. If you want to see further and rapid developments on dockeriot please support us via  [Contact](CONTACT.md) or [Funding](.github/FUNDING.yml)
 
 Applications of dockeriot include: 
 * Testing and deploying of complex applications on many devices in a replicable and scalable way. 
