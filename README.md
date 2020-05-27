@@ -22,8 +22,8 @@ Applications of dockeriot include:
 
 ## Next steps
 
-### [Install](installation.md) it!
+* [Install](installation.md) it
 
-### Run it!: See [usages](USAGES.md) and applications
+* Run it: See [usages](USAGES.md) and applications
 
 
