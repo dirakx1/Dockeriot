@@ -13,7 +13,7 @@ Applications of dockeriot include:
 
 ## General scheme
 
-<img src="./IotPlatform.jpeg">
+<img src="./images/IotPlatform.jpeg">
 
 * The things and green layer can be implemented with other embedded platforms different than raspberry
 * Apps developed on the things layer can only use docker. 
