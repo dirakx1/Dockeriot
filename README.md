@@ -12,8 +12,11 @@ Applications of dockeriot include:
 ```Note: Although here we depict a general platform, the first layer that is developed is the:``` [Things Layer](ThingsLayer.md)
 
 ## General scheme
+This scheme describes the basic components of dockeriot, each device f.e a raspberry board can have installed docker or kubernetes in which 
+a full application can be defined abstracting de underlaying operative system. 
 
 <img src="./images/IotPlatform.jpeg">
+
 
 * The things and green layer can be implemented with other embedded platforms different than raspberry
 * Apps developed on the things layer can only use docker. 
