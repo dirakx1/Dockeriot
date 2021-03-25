@@ -19,8 +19,6 @@ a full application can be defined abstracting de underlaying operative system.
 
 
 * The things and green layer can be implemented with other embedded platforms different than raspberry
-* Apps developed on the things layer can only use docker. 
-
 * For more information on layers you can see: [Things Layer](ThingsLayer.md), [Industrial Layer](IndustrialLayer.md), [Analytics Layer](AnalyticsLayer.md), Green layer. 
 
 ## Next steps
