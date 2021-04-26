@@ -68,6 +68,9 @@ $ docker-compose up -f Appcontianr/Dockerfile.dockeriot.yaml
 ```
 check_dockeriot.sh
 ```
-## Notes
+## Updates 
+* (for images with docker on RPI) available at: https://blog.hypriot.com/downloads/
+
+## Local development, emulation and testing
 * You can also test the dockerfiles locally, for that install docker in your preffered OS. 
-* Updates (for images with docker on RPI) available at: https://blog.hypriot.com/downloads/
+
