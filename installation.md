@@ -57,7 +57,7 @@ $ docker-compose --version
 
 Dockerfile.dockeriot has a description of all the necessary services to run a demo application on the [Things layer](ThingsLayer.md).
 ```
-$ docker-compose up -f Dockerfile.dockeriot.yaml 
+$ docker-compose up -f Appcontianr/Dockerfile.dockeriot.yaml 
 ```
 
 ## Dockeriot automatic installation
