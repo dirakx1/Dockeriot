@@ -34,4 +34,4 @@ WORKDIR /app
 RUN groupadd -g 1000 -r flask && useradd -r -u 1000 -g flask flask
 RUN mkdir /home/flask && chown flask: /home/flask
 USER flask
-ENTRYPOINT ["/flask-entrypoint.sh"]
+ENTRYPOINT ["/dockeriot-entrypoint.sh"]
