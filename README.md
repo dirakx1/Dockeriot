@@ -26,6 +26,6 @@ a full application can be defined abstracting de underlaying operative system.
 
 * [Install](installation.md) it
 
-* Run it: See [usages](USAGES.md) and applications
+* Run it! See [usages](USAGES.md) and applications
 
 
