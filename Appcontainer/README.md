@@ -4,6 +4,8 @@ Containerization of software applications that interact with IOT devices
 
 ## Testing
 
+Locally you can use: 
+
 * sudo docker-compose -f docker-compose-test.yml  up -d
 
 or 
