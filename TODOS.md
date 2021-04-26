@@ -6,5 +6,6 @@
 * HypriotOS support. 
 * Testing 
 * Use examples,
-* integration with other platforms. 
+* integration with other platforms.
+* Add support example of smart contract application on DLTs (IOTA / HOLOchain) 
 
