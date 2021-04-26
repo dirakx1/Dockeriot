@@ -8,7 +8,7 @@ Applications of dockeriot include:
 * Testing and deploying of complex applications on many devices in a replicable and scalable way. 
 * Fast integration of new features in a chain of devices allowing testing deploying and integration.
 * Fast integration with distributed technologies like blockchain and other DLTs (f.e IOTA and HOLOchain)
-* Support for SC on different chains. 
+* Support for Smart Contracts on different chains. 
 
 ```Note: Although here we depict a general platform, the first layer that is developed is the:``` [Things Layer](ThingsLayer.md)
 
