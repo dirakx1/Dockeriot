@@ -1,7 +1,9 @@
 
 # Installation
+This manual describes dockeriot installation on a Raspberry Pi. 
+but you can also do local emulation for developing and prototyping. 
 
-For dockeriot use we need to install docker under an ARM based arquitecture, that is common for embedded systems. 
+For dockeriot use we need to install docker under an ARM based arquitecture (Raspberry OS architecture), that is common for embedded systems. 
 we are going to describe a basic installation for the raspberry pi3 platform using the raspbian OS.
 
 ## Raspbian installation

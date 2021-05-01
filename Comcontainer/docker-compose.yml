@@ -7,7 +7,7 @@ services:
   dockeriot-com:
     build:
       context: "."
-      dockerfile: Dockerfile.com
+      dockerfile: com.Dockerfile
 
   dockeriot-nginx:
     image: nginx

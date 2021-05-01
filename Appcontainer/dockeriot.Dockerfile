@@ -23,9 +23,6 @@ RUN apt-mark manual libpq5 && \
 	apt-get remove -y libjpeg62-turbo-dev zlib1g-dev python3.5-dev libldap2-dev libsasl2-dev libpq-dev pandoc git wget libpcre3-dev && \
 	apt-get autoremove -y
 
-## COPY ENTRYPOINT SCRIPT
-COPY flask-entrypoint.sh /docker-entrypoint.sh
-
 ## CREATE A SPACE TO MOUNT DATA AND MOVE TO IT
 RUN mkdir /app
 WORKDIR /app
@@ -34,4 +31,4 @@ WORKDIR /app
 RUN groupadd -g 1000 -r flask && useradd -r -u 1000 -g flask flask
 RUN mkdir /home/flask && chown flask: /home/flask
 USER flask
-ENTRYPOINT ["/dockeriot-entrypoint.sh"]
+#ENTRYPOINT ["dockeriot-entrypoint.sh"]

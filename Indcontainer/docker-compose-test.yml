@@ -7,12 +7,12 @@ services:
   dockeriot-ind-test:
     build:
       context: "."      
-      dockerfile: Dockerfile.ind
+      dockerfile: ind.Dockerfile
  
   dockeriot-ind2-test:
     build:
       context: "."      
-      dockerfile: Dockerfile.ind
+      dockerfile: ind.Dockerfile
   
   dockeriot-nginx-test:
     image: nginx

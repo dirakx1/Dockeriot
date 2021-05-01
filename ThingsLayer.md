@@ -1,16 +1,18 @@
-## Things Layer
-<img src="./images/Things layer(2).jpg "> 
+## Dockeriot for things layer.
+Dockeriot can be used for specific application on the "things layer" that
+in an iot environment. 
 
-### Things layer zoom
-#### App container
-<img src="./images/App container(1).jpg ">
+For example, you are building an application that runs a webserver on an iot device.
+locally, you could build your app and then run it f.e 
+```
+docker build -< Appcontainer/dockeriot.Dockerfile -t dockeriot
+docker run -w /Appcontainer/ -t -i dockeriot 
+```
 
-#### Sensor/Actuator container
-<img src="./images/Sensor_ActuatorContainer2(1).jpg ">
+Note: This example is using only an Appcontainer, but we could also define: Communication and Sensor-actuator containers, 
+that are part of the "Things layer"
 
-## Dockeriot for things layer. 
-In order to see dockeriot in action for the things layer, you must [Install](installation.md) it and run 
-a demo application. 
-
+The same building/run procedure must be applied on all the iot devices you want to add
+to the dockeriot environment. 
 
 
