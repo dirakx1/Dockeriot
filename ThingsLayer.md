@@ -1,9 +1,8 @@
-## Dockeriot for things layer.
-Dockeriot can be used for specific application on the "things layer" that
-in an iot environment. 
+## Dockeriot things layer.
+Dockeriot can be used for specific application on the "things layer" for an iot environment. 
 
-For example, you are building an application that runs a webserver on an iot device.
-locally, you could build your app and then run it f.e 
+For example, you are building an application that runs a webserver on an iot device (f.e raspberrypi).
+locally, you could build your app (to test and prototype) and then run it: 
 ```
 docker build -< Appcontainer/dockeriot.Dockerfile -t dockeriot
 docker run -w /Appcontainer/ -t -i dockeriot 
