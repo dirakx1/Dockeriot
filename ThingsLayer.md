@@ -1,5 +1,10 @@
 ## Dockeriot things layer.
 Dockeriot can be used for specific application on the "things layer" for an iot environment. 
+The things layer depicts tjre principal containers:
+
+* Appcontainer: Application specific container definitions. 
+* Comcontainer: Comunication to other machines or iot devices, container definitions.
+* SenActcontainer Sensor/actuators specific container definitions. 
 
 For example, you are building an application that runs a webserver on an iot device (f.e raspberrypi).
 locally, you could build your app (to test and prototype) and then run it: 
