@@ -1,1 +1,2 @@
-# Dockerfile for a flask microservice that expose sensor/actuator data. 
+# Container defintion for Sensor/Actuators specifics
+# f.e amicroservice that expose sensor/actuator data. 
