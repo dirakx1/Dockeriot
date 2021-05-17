@@ -1,5 +1,5 @@
 # Container defintion for M2M / GPS / GSM
-# Specific needs. 
+# Specific needs. NOTE: Could be opional for some applications. 
 
 
 
