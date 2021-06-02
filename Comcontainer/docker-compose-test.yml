@@ -1,5 +1,6 @@
 # docker compose file for comunication layer container testing. 
 # you can build and test you docker images locally f.e: sudo docker-compose -f docker-compose-test.yml build
+# for exmaple you could take a look at https://github.com/docker/awesome-compose
 
 version: '3'
 services:

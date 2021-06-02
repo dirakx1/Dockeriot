@@ -1,5 +1,6 @@
 # Example of an aplication on the comcontainer for dockerioi
 # Services are described bellow, you can use a predifined docker images if wanted.
+# For more examples you can take a look at:
 
 version: '3'
 services:

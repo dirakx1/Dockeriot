@@ -1,5 +1,7 @@
 # Example of an aplication on the appcontainer for dockerioi
-# Services are described bellow, you can use a predifined flask docker image if wanted. 
+# Services are described bellow, you can use a predifined flask docker image if wanted.
+# For exmple on applications you can take a look at: https://github.com/docker/awesome-compose
+
 version: '3'
 services:
   
