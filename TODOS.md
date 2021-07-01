@@ -7,5 +7,6 @@
 * Testing 
 * Add Use examples
 * Integration with other platforms.
-* Add support example of smart contract application on DLTs (IOTA / HOLOchain) 
+* Add support example of smart contract application on DLTs (IOTA / HOLOchain)
+* Goshimmer nodes could be installed on raspberry with tinyGo, this nodes are needed for SC executions.  
 
